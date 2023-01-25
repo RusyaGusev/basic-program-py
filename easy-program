@@ -1,0 +1,20 @@
+
+import sys 
+
+#Welcome and Username
+print("Hello welcome to our new mesenger! How can I call you?")
+username = input("Enter username: ")
+print("Hello " + username)
+
+print("Hello " + username + "! Do you want to say something?")
+userleave = input("Do you want to say something? ")
+print (userleave)
+
+if userleave.lower == "yes" or "y" or "yEs" or "Yes" or "YES" or "yES" or "yeS" or "YEs":
+    break 
+elif userleave.lower == "no" or "n" or "No" or "nO":
+    quit()
+    
+    
+    print(user_message)
+user_message = input('Please say it: ')
